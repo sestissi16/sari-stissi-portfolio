@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import $ from 'jquery';
-import './App.css';
-import Main from './Components/Main';
-import { Route, BrowserRouter as Router } from 'react-router-dom'
-import theGuardian from './Components/theGuardian'
-import spaceSafe from './Components/spaceSafe'
-class App extends Component {
+import Header from './Header';
+import Footer from './Footer';
+import About from './About';
+import Resume from './Resume';
+import Contact from './Contact';
+import Testimonials from './Testimonials';
+import Portfolio from './Portfolio';
+
+class Main extends Component {
 
   constructor(props){
     super(props);
@@ -41,15 +44,17 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Router>
-          <Route exact path="/" component={Main} />
-          <Route exact path="/TheGuardian" component={theGuardian} />
-          <Route exact path="/SpaceSafe" component={spaceSafe} />
-        </Router>
+      <div className="Main">
+        <Header data={this.state.resumeData.main}/>
+        <About data={this.state.resumeData.main}/>
+        <Resume data={this.state.resumeData.resume}/>
+        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Testimonials data={this.state.resumeData.testimonials}/>
+        <Contact data={this.state.resumeData.main}/>
+        <Footer data={this.state.resumeData.main}/>
       </div>
     );
   }
 }
 
-export default App;
+export default Main;

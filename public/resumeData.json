@@ -1,25 +1,25 @@
 {
   "main": {
     "name":"Sari Stissi",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "occupation":"Digital Platforms Manager and Developer",
+    "description":"Currently I'm working at On Earth Peace where I am facilitating a data migration from Salesforce to NationBuilder and conceptualizing, designing, product managing, and developing an app or suite of apps to help boost interaction with the organization",
     "image":"MeAtAcropolis.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "s3937stissi@gmail.com",
+    "phone": "702-738-4277",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"-------------------------",
+      "city":"Las Vegas",
+      "state":"Nevada",
+      "zip": "------"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
         "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
+        "url":"https://www.facebook.com/Sari.Stissi",
         "className":"fa fa-facebook"
       },
       {
@@ -34,7 +34,7 @@
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/sari-stissi/",
         "className":"fa fa-linkedin"
       },
       {
@@ -44,7 +44,7 @@
       },
       {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/sestissi16",
         "className":"fa fa-github"
       },
       {
@@ -118,16 +118,16 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"The Guardian",
+        "category":"A text based story game I created",
+        "image":"mediumCoverArt.jpg",
+        "url":"/TheGuardian"
       },
       {
         "title":"Fury Fighting Gear",
         "category":"(offline now) A fighting gear company I started",
         "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"/SpaceSafe"
       },
       {
         "title":"Original Thai Food",

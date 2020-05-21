@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 class Portfolio extends Component {
   render() {
 
@@ -25,7 +24,6 @@ class Portfolio extends Component {
 
     return (
       <section id="portfolio">
-
       <div className="row">
 
          <div className="twelve columns collapsed">
