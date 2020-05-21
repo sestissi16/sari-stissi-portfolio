@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CoverArt from '../Media/mediumCoverArt.jpg'
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 import Main from './Main'
+import './theGuardian.css'
 
 class theGuardian extends Component {
   render() {
