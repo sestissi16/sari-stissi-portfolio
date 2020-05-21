@@ -1,12 +1,75 @@
-.gameHomeContainer {
+#theGuardianContainer {
     min-height: 100%;
     width: 100%;
     background: 
-        linear-gradient(
-            rgba(82, 74, 48, 0.356), 
-            rgba(82, 74, 48, 0.356)
-        ),
+        /* linear-gradient(
+            rgba(54, 47, 24, 0.445), 
+            rgba(54, 47, 24, 0.445)
+        ), */
         url('../Media/oldParchmentWallpaper.jpg');
     background-size: cover;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+#gameHomeContainer {
+    height: 80%;
+    width: 90%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    background-color: rgba(248, 240, 213, 0.5);
+    /* padding: 13% 2% 15%; */
+}
+
+#gameHomeSidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+    width: 30%;
+    /* min-height: stretch; */
+    padding: 2% 2%;
+    font-size: 1.2em;
+}
+
+#downloadGameFile a, #playGameLink a, #portfolioLink a, #playinfo a {
+    color: darkblue;
+}
+
+#downloadGameFile a:hover, #playGameLink a:hover, #portfolioLink a:hover, #playinfo a:hover {
+    color: rgb(12, 78, 221);
+}
+
+#gameHomeMainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    width: 70%;
+    /* min-height: stretch; */
+    padding: 2% 2%;
+}
+
+#introduction {
+    padding: 0% 0% 3%;
+    width: 100%;
+    border-bottom: solid black 0.2em;
+    font-size: 1.2em;
+}
+
+#gameAbout {
+    padding: 3% 0% 0%;
+    width: 100%;
+    font-size: 1.2em;
 }
