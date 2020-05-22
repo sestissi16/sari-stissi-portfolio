@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CoverArt from '../Media/mediumCoverArt.jpg'
-import { Route, BrowserRouter as Router } from 'react-router-dom'
-import Main from './Main'
+import LargeCoverArt from '../Media/coverArt.jpg'
 import './theGuardian.css'
 
 class theGuardian extends Component {
@@ -22,15 +21,12 @@ class theGuardian extends Component {
 
     return (
         <div id="theGuardianContainer">
-            <Router>
-                <Route exact path="/" component={Main} />
-            </Router>
             <div id="gameHomeContainer">
                 <div id="gameHomeSidebar">
                     <div id="coverimage">
                         <span>
-                            <a href="Cover.jpg">
-                                <img src={CoverArt} alt="Drawing of the island of Serpedon" border="1"/>
+                            <a href={LargeCoverArt}>
+                                <img src={CoverArt} alt="Drawing of the island of Serpedon Cover Art" border="1"/>
                             </a>
                         </span>
                     </div>
@@ -43,7 +39,7 @@ class theGuardian extends Component {
                             </li>
                             <li>
                                 <div id="playGameLink">
-                                    <a href="../play.html">Play In-Browser</a> <span className="filetype">(link)</span>
+                                    <a href="/PlayTheGuardian">Play In-Browser</a> <span className="filetype">(link)</span>
                                 </div>
                             </li>
                             <li>

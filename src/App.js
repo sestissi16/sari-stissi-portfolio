@@ -5,6 +5,7 @@ import './App.css';
 import Main from './Components/Main';
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 import theGuardian from './Components/theGuardian'
+import theGuardianPlay from './Components/theGuardianPlay'
 import spaceSafe from './Components/spaceSafe'
 class App extends Component {
 
@@ -45,6 +46,7 @@ class App extends Component {
         <Router>
           <Route exact path="/" component={Main} />
           <Route exact path="/TheGuardian" component={theGuardian} />
+          <Route exact path="/PlayTheGuardian" component={theGuardianPlay} />
           <Route exact path="/SpaceSafe" component={spaceSafe} />
         </Router>
       </div>

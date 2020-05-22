@@ -12,9 +12,27 @@ body
 	-webkit-text-size-adjust: none;
 }
 
-.container
+#theGuardianPlayContainer {
+	min-height: 100%;
+    width: 100%;
+    background: 
+        /* linear-gradient(
+            rgba(54, 47, 24, 0.445), 
+            rgba(54, 47, 24, 0.445)
+        ), */
+        url('./Media/oldParchmentWallpaper.jpg');
+    background-size: cover;
+}
+
+#container
 {
-	margin-top: 2em;
+	padding-top: 2em;
+	background-color: rgba(255, 237, 180, 0.692);
+	color: black;
+	min-height: inherit;
+	/* width: 100%;
+	min-height: inherit; */
+	
 }
 
 /* 

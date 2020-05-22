@@ -87,7 +87,7 @@
     "skills":[
       {
         "name":"Git",
-        "level":"60%"
+        "level":"100%"
       },
       {
         "name":"Illustrator",
@@ -95,15 +95,15 @@
       },
       {
         "name":"ReactJs",
-        "level":"50%"
+        "level":"100%"
       },
       {
         "name":"CSS",
-        "level":"90%"
+        "level":"100%"
       },
       {
         "name":"HTML5",
-        "level":"80%"
+        "level":"100%"
       },
       {
         "name":"VueJs",
@@ -124,8 +124,8 @@
         "url":"/TheGuardian"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"Space Safe",
+        "category":"A collaborative game in unity I created with a group",
         "image":"fury-fighting-gear.jpg",
         "url":"/SpaceSafe"
       },
