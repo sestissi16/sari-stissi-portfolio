@@ -517,29 +517,7 @@ Styles for mobile browsers: change to a one-column layout.
 */
 
 @media (max-width: 480px)
-{
-	#sidebar .coverimage {
-		width: 30%;
-		height: 100%;
-	}
-	
-	#sidebarImageSpan, #sidebarImageLink, #sidebarImage {
-		height: 100%;
-		width: 100%;
-	}
-	
-	#sidebar .links
-	{
-		padding: 0% 2%;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-		align-content: center;
-		width: 60%;
-		margin: 0%;
-	}
-	
+{	
 	#playGameTitle {
 		margin: 0% 0% 1%;
 		font-size: 2.2em !important;
@@ -554,12 +532,6 @@ Styles for mobile browsers: change to a one-column layout.
 		font-size: 1.2em !important;
 		margin: 0%;
 		width: 100%;
-	}
-	
-	.playLinksItem {
-		padding: 0% 2%;
-		text-align: center;
-		width: 46%;
 	}
 	
 	.interpretercredit
@@ -577,27 +549,6 @@ Styles for mobile browsers: change to a one-column layout.
 }
 
 @media (max-width: 768px) {
-	#sidebar .coverimage {
-		width: 30%;
-		height: 100%;
-	}
-	
-	#sidebarImageSpan, #sidebarImageLink, #sidebarImage {
-		height: 100%;
-		width: 100%;
-	}
-	
-	#sidebar .links
-	{
-		padding: 0% 2%;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-		align-content: center;
-		width: 60%;
-		margin: 0%;
-	}
 	
 	#playGameTitle {
 		margin: 0% 0% 1%;
@@ -613,12 +564,6 @@ Styles for mobile browsers: change to a one-column layout.
 		font-size: 1.5em;
 		margin: 0%;
 		width: 100%;
-	}
-	
-	.playLinksItem {
-		padding: 0% 2%;
-		text-align: center;
-		width: 46%;
 	}
 	
 	.interpretercredit
