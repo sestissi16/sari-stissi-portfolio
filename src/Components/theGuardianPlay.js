@@ -10,23 +10,28 @@ class theGuardian extends Component {
     return (
         <div id="theGuardianPlayContainer">
             <div id="container">
-                <div className="coverimage">
-                    <span>
-                        <a href={LargeCoverArt}>
-                            <img src={CoverArt}  alt="Drawing of the island of Serpedon Cover Art" border="1"/>
-                        </a>
-                    </span>
-                </div>
-                <div className="links">
-                    <div className="smalltitle">The Guardian</div>
-                    <ul>
-                        <li>
-                            <a href="/TheGuardian">The Guardian Home page</a>
-                        </li>
-                        <li>
-                            <a href="/">Go back to portfolio site</a>
-                        </li>
-                    </ul>
+                <div id="sidebar">
+                    <div className="coverimage">
+                        <span id="sidebarImageSpan">
+                            <a id="sidebarImageLink" href={LargeCoverArt}>
+                                <img src={CoverArt} id="sidebarImage" alt="Drawing of the island of Serpedon Cover Art" border="1"/>
+                            </a>
+                        </span>
+                    </div>
+                    <div className="links">
+                        <h1 id="playGameTitle">The Guardian</h1>
+                        <ul id="playLinksList">
+                            <li>
+                                <a href="/TheGuardian">The Guardian Home page</a>
+                            </li>
+                            <li>
+                                <a href="/">Go back to portfolio site</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="interpretercredit">
+                        <a href="http://eblong.com/zarf/glulx/quixe/">Quixe for Inform 7 (v. 2.1.2)</a>
+                    </div>
                 </div>
                 <div id="gameport">
                     <div id="windowport">
@@ -43,9 +48,7 @@ class theGuardian extends Component {
                     <div id="errorpane" style={{display: 'none'}}><div id="errorcontent">...</div></div>
                 </div>
             </div>
-            <div className="interpretercredit">
-                <a href="http://eblong.com/zarf/glulx/quixe/">Quixe for Inform 7 (v. 2.1.2)</a>
-            </div>
+            
         </div>
     );
   }
