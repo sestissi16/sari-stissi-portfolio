@@ -50,12 +50,14 @@
    /* About Section
    ------------------------------------------------------------------- */
    #about .profile-pic {
-      width: 114px;
-      height: 114px;
-      margin-left: 12px;
+      position: relative;
+      width: 25em;
+      height: 20em;
+      border-radius: 100%;
+      padding: 0% 2%;
    }
-   #about .contact-details { width: 50%; }
-   #about .download { width: 50%; }
+
+   
 
    /* Resume Section
    ------------------------------------------------------------------- */
@@ -95,7 +97,7 @@
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
    /* mobile navigation
    -------------------------------------------------------------------- */
@@ -215,13 +217,93 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
-   #about .download .button {
-      width: 100%;
-      text-align: center;
-      padding: 15px 20px;
+
+   #about {
+      background: #2B2B2B;
+      padding-top: 7.5em;
+      padding-bottom: 4em;
+      overflow: hidden;
    }
-   #about .main-col { padding-right: 30px; }
+   
+   #about a, #about a:visited  { color: #fff; }
+   #about a:hover, #about a:focus { color: #11ABB0; }
+   
+   #aboutContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      align-content: center;
+      width: 100%;
+      height: fit-content;
+      padding: 0% 2%;
+   }
+   
+   #aboutPictureContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 0% 2%;
+   }
+   
+   #aboutMeDetails {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: fit-content;
+   }
+   
+   #aboutMeInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: flex-start;
+      width: 100%;
+      min-height: fit-content;
+      padding: 0% 2% 1%;
+   }
+   
+   #aboutContactResumeRow {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      align-content: center;
+      width: 100%;
+      min-height: fit-content;
+      padding: 0% 2%;
+   }
+   
+   #about .profile-pic {
+      position: relative;
+      width: 20em;
+      height: 15em;
+      border-radius: 100%;
+      padding: 0% 2%;
+   }
+   #aboutContactDetails { width: 50%; }
+   
+   #aboutDownload {
+      width: 50%;
+      padding-top: 6px;
+   }
+   #about .main-col { padding-right: 5%; }
+   #aboutDownload .button {
+      text-align: center;
+      margin-top: 6px;
+      background: #444;
+   }
+   #aboutDownload .button:hover {
+      background: #fff;
+      color: #2B2B2B;
+   }
 
 
    /* Resume Section
@@ -340,7 +422,7 @@
 /* mobile narrow
   -------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 490px) {
 
    /* mobile navigation
    -------------------------------------------------------------------- */
@@ -361,6 +443,99 @@
    /* header social links */
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
+
+   /* About Styles 
+   ---------------------------------------------------------------------*/
+   #about {
+      background: #2B2B2B;
+      padding-top: 7.5em;
+      padding-bottom: 4em;
+      overflow: hidden;
+   }
+   
+   #about a, #about a:visited  { color: #fff; }
+   #about a:hover, #about a:focus { color: #11ABB0; }
+   
+   #aboutContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      align-content: center;
+      width: 100%;
+      height: fit-content;
+      padding: 0% 2%;
+   }
+   
+   #aboutPictureContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 0% 2%;
+   }
+   
+   #aboutMeDetails {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: fit-content;
+   }
+   
+   #aboutMeInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: fit-content;
+      padding: 3% 2% 1%;
+      text-align: center;
+   }
+   
+   #aboutContactResumeRow {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      align-content: center;
+      width: 100%;
+      min-height: fit-content;
+      padding: 0% 2%;
+   }
+   
+   #about .profile-pic {
+      position: relative;
+      width: 20em;
+      height: 15em;
+      border-radius: 100%;
+      padding: 0% 2%;
+   }
+   #aboutContactDetails { 
+      width: 100%; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+   }
+   
+   #aboutDownload {
+      width: 100%;
+      padding-top: 6px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+   }
+
 
    /* footer
    ------------------------------------------------------------------------ */

@@ -190,7 +190,7 @@ ul#nav li.current a { color: #F06000; }
 
 #about {
    background: #2B2B2B;
-   padding-top: 5em;
+   padding-top: 7.5em;
    padding-bottom: 4em;
    overflow: hidden;
 }
@@ -206,16 +206,15 @@ ul#nav li.current a { color: #F06000; }
    align-content: center;
    width: 100%;
    height: fit-content;
-   padding: 0% 4%;
 }
 
 #aboutPictureContainer {
    display: flex;
+   flex-direction: column;
    justify-content: flex-start;
    align-content: center;
    align-items: center;
    width: 35%;
-   height: 100%;
    padding: 0% 2%;
 }
 
@@ -240,6 +239,10 @@ ul#nav li.current a { color: #F06000; }
    padding: 0% 2% 1%;
 }
 
+#aboutMeInfo .bio {
+   font-size: 1.5em;
+}
+
 #aboutContactResumeRow {
    display: flex;
    flex-direction: row;
@@ -258,23 +261,27 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #B5E3FD;
+   color: #b1d9ff;
 }
 #about .profile-pic {
    position: relative;
-   width: 20em;
-   height: 15em;
+   width: 30em;
+   height: 25em;
    border-radius: 100%;
    padding: 0% 2%;
 }
-#aboutContactDetails { width: 58.33333%; }
+#aboutContactDetails { width: 50%; }
+
+#aboutContactDetails .address {
+   font-size: 1.5em;
+}
+
 #aboutDownload {
-   width: 41.66667%;
+   width: 50%;
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
 #aboutDownload .button {
-   margin-top: 6px;
    background: #444;
 }
 #aboutDownload .button:hover {
