@@ -21,10 +21,10 @@ class theGuardian extends Component {
                     <div className="links">
                         <h1 id="playGameTitle">The Guardian</h1>
                         <ul id="playLinksList">
-                            <li>
+                            <li className="playLinksItem">
                                 <a href="/TheGuardian">The Guardian Home page</a>
                             </li>
-                            <li>
+                            <li className="playLinksItem">
                                 <a href="/">Go back to portfolio site</a>
                             </li>
                         </ul>
