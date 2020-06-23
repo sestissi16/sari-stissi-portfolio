@@ -18,39 +18,24 @@
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
-        "name":"facebook",
+        "name":"Facebook",
         "url":"https://www.facebook.com/Sari.Stissi",
         "className":"fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
-        "name":"linkedin",
+        "name":"Linkedin",
         "url":"https://www.linkedin.com/in/sari-stissi/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "name":"Instagram",
+        "url":"https://www.instagram.com/sarinotsorry00/",
         "className":"fa fa-instagram"
       },
       {
-        "name":"github",
+        "name":"GitHub",
         "url":"https://github.com/sestissi16",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },

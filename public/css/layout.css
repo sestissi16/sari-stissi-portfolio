@@ -52,9 +52,9 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;
+   padding: 3% 0%;
    text-align: center;
-   background-color: rgba(13, 13, 13, 0.527);
+   background-color: rgba(13, 13, 13, 0.76);
 }
 
 header .banner-text { width: 100%; }
