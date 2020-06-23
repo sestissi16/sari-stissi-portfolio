@@ -508,8 +508,11 @@ Styles for play.html
 }
 
 .Input {
-	width: 50em !important;
+	min-width: none !important;
 	max-width: none !important;
+	height: 3em;
+	padding: 1% !important;
+	margin: 0% 0% 1% !important;
 }
 
 /*
